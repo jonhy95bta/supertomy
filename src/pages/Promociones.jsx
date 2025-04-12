@@ -88,7 +88,7 @@ const Promociones = () => {
             {/* 👉 Botón de WhatsApp */}
             <div className="text-center">
                 <a
-                    href="https://wa.me/549XXXXXXXXXX?text=Hola%2C%20quiero%20consultar%20por%20las%20promociones%20del%20almacén"
+                    href="https://wa.me/5492243405701?text=Hola%2C%20quiero%20consultar%20por%20las%20promociones%20del%20almacén"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg transition transform hover:scale-105 animate-pulse"
