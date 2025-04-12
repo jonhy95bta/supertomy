@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Nosotros from './pages/Nosotros';
-import Productos from './pages/Productos';
-import Promociones from './pages/Promociones';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Home from './pages/Home.jsx';
+import Nosotros from './pages/Nosotros.jsx';
+import Productos from './pages/Productos.jsx';
+import Promociones from './pages/Promociones.jsx';
+import Navbar from './components/NavBar.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
