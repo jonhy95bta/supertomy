@@ -10,7 +10,7 @@ const Home = () => {
                 <meta name="description" content="Conocé nuestro almacén en Gral. Belgrano. Productos frescos, promociones y la mejor atención de Cris y Juli. ¡Te esperamos con la mejor onda!" />
                 <meta name="keywords" content="almacén, productos frescos, Gral. Belgrano, Cris y Juli, atención personalizada, promociones semanales" />
             </Helmet>
-            
+
             {/* 📸 Header con imagen de portada */}
             <header
                 className="w-full h-[400px] bg-cover bg-center relative"
@@ -50,6 +50,7 @@ const Home = () => {
                         <img src="../img/knor.webp" alt="Marca 9" className="h-20" />
                         <img src="../img/serenisima.webp" alt="Marca 10" className="h-20" />
                         <img src="../img/kinder.webp" alt="Marca 11" className="h-20" />
+                        <img src="../img/branca.webp" alt="Marca 12" className="h-20" />
                     </div>
 
                     {/* 📍 Mapa reducido */}

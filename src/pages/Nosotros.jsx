@@ -30,15 +30,15 @@ const Nosotros = () => {
                 <div className="flex flex-col gap-4 text-lg text-gray-700 items-center">
                     <div className="flex items-center gap-3">
                         <Clock className="text-blue-600 w-5 h-5" />
-                        <span><strong>Lunes a Viernes:</strong> 8:00 a 13:00 y 17:00 a 21:00</span>
+                        <span><strong>Lunes a Viernes:</strong> 8:00 a 22:00</span>
                     </div>
                     <div className="flex items-center gap-3">
                         <Clock className="text-blue-600 w-5 h-5" />
-                        <span><strong>Sábados:</strong> 8:00 a 13:00 y 17:30 a 21:00</span>
+                        <span><strong>Sábados:</strong> 8:00 a 22:00 </span>
                     </div>
                     <div className="flex items-center gap-3">
                         <Clock className="text-blue-600 w-5 h-5" />
-                        <span><strong>Domingos:</strong> 9:00 a 13:00</span>
+                        <span><strong>Domingos:</strong> 8:00 a 22:00</span>
                     </div>
                 </div>
             </div>

@@ -4,23 +4,23 @@ import { Helmet } from 'react-helmet-async';
 
 const promociones = [
     {
-        nombre: "2x1 en Galletitas",
-        descripcion: "Llevá 2 paquetes por el precio de 1 toda la semana.",
+        nombre: " Galletitas providencia",
+        descripcion: "Llevá el paquete x5 por el precio de $1380.",
         icono: <Percent className="w-12 h-12 text-blue-500 mx-auto mb-4" />,
     },
     {
-        nombre: "Descuento en Lácteos",
-        descripcion: "15% off en quesos y yogures seleccionados.",
+        nombre: "Descuento en fideos",
+        descripcion: "Fideos selecionados, Sol pampeano a $750.",
         icono: <Tag className="w-12 h-12 text-blue-500 mx-auto mb-4" />,
     },
     {
         nombre: "Promo Carnicería",
-        descripcion: "Pollo fresco x kg a precio especial todos los viernes.",
+        descripcion: "Pollo fresco: pata y muslo 3kg a $ 9100.",
         icono: <BadgeDollarSign className="w-12 h-12 text-blue-500 mx-auto mb-4" />,
     },
     {
-        nombre: "¡Sorpresa con tu compra!",
-        descripcion: "Regalo sorpresa en compras mayores a $5000.",
+        nombre: "¡Llevale un regalo a esa persona especial!",
+        descripcion: "Aprovecha los descuentos en chocolates.",
         icono: <Gift className="w-12 h-12 text-blue-500 mx-auto mb-4" />,
     },
 ];
@@ -52,6 +52,37 @@ const Promociones = () => {
                     </div>
                 ))}
             </div>
+
+            {/* 👉 Invitación a visitar el almacén */}
+            <section className="px-6 py-12 bg-gray-50">
+                <div className="text-center">
+                    <p className="text-lg text-gray-700 mb-8">
+                        ¡Visitanos y conocé más sobre todas nuestras ofertas exclusivas en el barrio!
+                    </p>
+                    <div className="flex flex-wrap justify-center items-center gap-6">
+                        <img
+                            src="../img/gondola.webp"
+                            alt="Góndola"
+                            className="h-70 w-auto rounded-lg shadow-md"
+                        />
+                        <img
+                            src="../img/vinos.webp"
+                            alt="Vinos"
+                            className="h-70 w-auto rounded-lg shadow-md"
+                        />
+                        <img
+                            src="../img/tinturas.webp"
+                            alt="Tinturas"
+                            className="h-70 w-auto rounded-lg shadow-md"
+                        />
+                        <img
+                            src="../img/gaseosas.webp"
+                            alt="Gaseosas"
+                            className="h-70 w-auto rounded-lg shadow-md"
+                        />
+                    </div>
+                </div>
+            </section>
 
             {/* 💳 Sección de Medios de Pago */}
             <section className="px-6 py-12 bg-white">
